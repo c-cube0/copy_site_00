@@ -8,13 +8,29 @@
     margin :0 auto;
     width: 1024px;
 }
-ul {
+ul{
+    padding: 0;
+    margin: 0;
+}
+.header-item {
+    width :100%;
+}
+.header-list ul {
     display :flex;
 }
-li {
+.header-list li {
     list-style :none;
     font-size :18px;
     display :flex;
     padding :30px 20px;
     font-weight :600px;
+    
+}
+.header-list1 ul {
+    display :flex;
+    justify-content: flex-end;
+}
+.header-list1 li {
+    list-style :none;
+    padding :0 16px;
 }
