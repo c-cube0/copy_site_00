@@ -84,6 +84,7 @@ p {
 }
 .btn-date {
     display: block;
+    font-weight:bold;
 }
 .btn-text {
     display: block;
