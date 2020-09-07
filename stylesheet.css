@@ -63,18 +63,41 @@ ul{
 .content .content-title-red {
     color:#be1c10;
 }
-.btn-normal{
-    width: 1024px;
-}
-.btn-red {
-    background-color: #be1c10;
-    color: #ffff;
+.btn {
+    text-decoration: none;
     font-size: 16px;
     margin: 10px;
     padding: 16px;
     border-radius: 10px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.2);
+    color: black;
+
+}
+.btn-red {
+    background-color: #be1c10;
+    color: #fff;
 }
 p {
     font-size: 18px;
     color: #2D2D2D;
+}
+.menu-card-big {
+    width: 502px;
+    height: 312px;
+    font-size: 20px;
+}
+.menu-card {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.2);
+    width: 241px;
+    height: 226px;
+    margin: 10px;
+    padding: 16px;
+    display: block;
+}
+.menu-item {
+    display :flex;
+
 }
