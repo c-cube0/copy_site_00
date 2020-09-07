@@ -1,3 +1,16 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+p {
+    font-size: 18px;
+    color: #2D2D2D;
+}
+
 .header {
     width :100%;
     height :108px;
@@ -7,10 +20,6 @@
     display :flex;
     margin :0 auto;
     width: 1024px;
-}
-ul{
-    padding: 0;
-    margin: 0;
 }
 .header-item {
     width :100%;
@@ -63,24 +72,28 @@ ul{
 .content .content-title-red {
     color:#be1c10;
 }
+
+/*-------------- btn --------------*/
 .btn {
-    text-decoration: none;
     font-size: 16px;
     margin: 10px;
     padding: 16px;
     border-radius: 10px;
     box-shadow: 0 1px 4px 0 rgba(0,0,0,.2);
-    color: black;
 
+}
+.btn-date {
+    display: block;
+}
+.btn-text {
+    display: block;
 }
 .btn-red {
     background-color: #be1c10;
     color: #fff;
 }
-p {
-    font-size: 18px;
-    color: #2D2D2D;
-}
+
+/*-------------- menu-card --------------*/
 .menu-card {
     text-decoration: none;
     font-size: 16px;
@@ -101,7 +114,3 @@ p {
     display :flex;
 
 }
-/* .content .content-news {
-    font-size:28px;
-    padding-bottom: 36px;
-} */
