@@ -115,3 +115,21 @@ p {
     display :flex;
 
 }
+.normal-menu-price {
+    font-weight:bold;
+}
+.big-menu-price {
+    font-weight:bold;
+}
+.limit-badge{
+    width: 94px;
+    height: 118px;
+}
+.tsukimi-fuwatoro2020{
+    width: 296px;
+    height: 178px;
+}
+.tsukimi-cheese2020{
+    width: 209px;
+    height: 125px;
+}
