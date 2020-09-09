@@ -1,3 +1,11 @@
+h3 {
+    line-height: 1.5;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -95,8 +103,26 @@ p {
 }
 
 /*-------------- menu-card --------------*/
+.card {
+    background-color: #fff;
+    width: 241px;
+    height: 294px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.2);
+    display: block;
+    overflow: hidden;
+    margin: 10px;
+}
+.card-big {
+    width: 328px;
+    height: 450px;
+    margin: 10px;
+}
+.card-item {
+    display :flex;
+    margin: 10px;
+}
+
 .menu-card {
-    text-decoration: none;
     font-size: 16px;
     color: black;
     box-shadow: 0 1px 4px 0 rgba(0,0,0,.2);
@@ -121,15 +147,24 @@ p {
 .big-menu-price {
     font-weight:bold;
 }
-.limit-badge{
+.limit-badge {
     width: 94px;
     height: 118px;
 }
-.tsukimi-fuwatoro2020{
+.tsukimi-fuwatoro2020 {
     width: 296px;
     height: 178px;
 }
-.tsukimi-cheese2020{
+.tsukimi-cheese2020 {
     width: 209px;
     height: 125px;
+}
+.campaign-banner {
+    width: 328px;
+    height: 328px;
+}
+.cards-row {
+    width: 241px;
+    height: 241px;
+
 }
