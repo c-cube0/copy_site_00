@@ -117,6 +117,11 @@ p {
     height: 450px;
     margin: 10px;
 }
+.card-small {
+    width: 241px;
+    height: 207px;
+    margin: 10px;
+}
 .card-item {
     display :flex;
     margin: 10px;
@@ -166,5 +171,8 @@ p {
 .cards-row {
     width: 241px;
     height: 241px;
-
+}
+.original {
+    width: 241px;
+    height: 133px;
 }
