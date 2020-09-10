@@ -80,6 +80,10 @@ p {
 .content .content-title-red {
     color:#be1c10;
 }
+.content-last {
+    display: flex;
+    flex-wrap: wrap;
+} 
 
 /*-------------- btn --------------*/
 .btn {
@@ -101,7 +105,19 @@ p {
     background-color: #be1c10;
     color: #fff;
 }
-
+.btn-last {
+    width: 50%;
+}
+.btn-news {
+    font-size: 16px;
+    margin: 10px;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.2);
+    display: block;
+    /* width: calc(50% - 20px);
+    box-sizing: border-box; */
+}
 /*-------------- menu-card --------------*/
 .card {
     background-color: #fff;
